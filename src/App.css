@@ -9,9 +9,11 @@
   text-align: center;
 }
 
-.body {
-  background-image: url('images/background.png');
+body {
+  background-image: url('https://acegif.com/wp-content/uploads/gif/outerspace-8.gif');
+  background-size: 100%;
   color: white;
+  width: 100%;
 }
 
 .title {
@@ -20,7 +22,6 @@
 }
 
 h2 {
-  border: solid red 1px;
   border-radius: 15px;
   font-size: 3em;
   margin: 0 auto;
@@ -39,7 +40,7 @@ h2 {
 } */
 
 .card {
-  border: solid blue 1px;
+  border: solid rgb(148, 151, 210)  5px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -69,6 +70,7 @@ h2 {
 }
 
 .planetas {
+  align-items: center;
   display: flex;
 }
 
@@ -78,5 +80,79 @@ h2 {
 }
 
 .planetas div {
+  margin: 0 auto;
   text-align: center;
 }
+
+.planetas div:nth-child( 1 ) img {
+  width: 80px;
+}
+
+.planetas div:nth-child( 2 ) img {
+  width: 110px;
+}
+
+.planetas div:nth-child( 3 ) img {
+  width: 135px;
+}
+
+.planetas div:nth-child( 4 ) img {
+  width: 110px;
+}
+
+.planetas div:nth-child( 5 ) img {
+  width: 230px;
+}
+
+.planetas div:nth-child( 6 ) img {
+  width: 170px;
+}
+
+.planetas div:nth-child( 7 ) img {
+  width: 155px;
+}
+
+.planetas div:nth-child( 8 ) img {
+  width: 153px;
+}
+
+.planetas div:nth-child( 1 ) img:hover {
+  transition: 1000ms;
+  width: 300px;
+}
+
+.planetas div:nth-child( 2 ) img:hover {
+  transition: 1000ms;
+  width: 300px;
+}
+
+.planetas div:nth-child( 3 ) img:hover {
+  transition: 1000ms;
+  width: 300px;
+}
+
+.planetas div:nth-child( 4 ) img:hover {
+  transition: 1000ms;
+  width: 300px;
+}
+
+.planetas div:nth-child( 5 ) img:hover {
+  transition: 1000ms;
+  width: 300px;
+}
+
+.planetas div:nth-child( 6 ) img:hover {
+  transition: 1000ms;
+  width: 300px;
+}
+
+.planetas div:nth-child( 7 ) img:hover {
+  transition-duration: 1000ms;
+  width: 300px;
+}
+
+.planetas div:nth-child( 8   ) img:hover {
+  transition-duration: 1000ms;
+  width: 300px;
+}
+
