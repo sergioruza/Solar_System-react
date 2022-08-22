@@ -72,6 +72,8 @@ h2 {
 .planetas {
   align-items: center;
   display: flex;
+  margin-bottom: 35px;
+  margin-top: 25px;
 }
 
 .planetas div img {
